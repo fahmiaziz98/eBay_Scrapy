@@ -29,10 +29,3 @@ class QuotesSpider(scrapy.Spider):
             'Name': list_name
         })
         df.to_excel('datas.xlsx', index=False)
-
-            # writing data excel
-            # df = pd.DataFrame([items], columns=['Name', 'Categories'])
-            # df.to_excel('dataFakeplants.xlsx', sheet_name='Fake_Data', index=False)
-
-
-        
